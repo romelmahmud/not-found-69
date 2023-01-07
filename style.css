@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'constantine_regular';
+  src: url("./assets/font/Constantine.ttf");
+}
+
+@font-face {
+  font-family: 'constantine_bold';
+  src: url("./assets/font/Constantine_Bold.ttf");
+}
+
+@font-face {
+  font-family: 'constantine_outline';
+  src: url("./assets/font/Constantine_Outline.ttf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "constantine_regular", sans-serif;
+  background: #000;
+  color: #EAF1F2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.content {
+  width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.content h2 {
+  font-size: 86px;
+}
+
+.lt{
+  letter-spacing: .4em;
+  
+}
+
+.lt-2{
+  letter-spacing: .5em;
+
+}
+
+.content p {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: .4em;
+}
+ .mt{
+  margin-top: -55px;
+ }
+.word-1 {
+
+  
+  opacity: .04;
+}
+
+.word-2 {
+  opacity: .13;
+}
+
+.word-3 {
+  opacity: .2;
+}
+
+.word-4 {
+  opacity: .4;
+}
+
+.upside-down{
+  transform: scale(1, -1);
+}
